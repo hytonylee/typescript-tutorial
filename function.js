@@ -18,4 +18,8 @@ var getName = function (firstName, lastName) {
     }
     return firstName + ' ' + lastName;
 };
-console.log(getName('Joe'));
+// console.log(getName('Joe'))
+var myVoid = function () {
+    return;
+};
+console.log(myVoid);

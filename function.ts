@@ -23,4 +23,10 @@ const getName = (firstName: string, lastName?: string): string => {
   return firstName + ' ' + lastName
 }
 
-console.log(getName('Joe'))
+// console.log(getName('Joe'))
+
+const myVoid = (): void => {
+  return;
+}
+
+console.log(myVoid);
