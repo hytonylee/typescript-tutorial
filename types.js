@@ -20,5 +20,7 @@ booArr = [true, false, true];
 var strMulti;
 strMulti = ["Hello", 4];
 // void
-var myVoid = null;
-console.log(myVoid);
+var myVoid = undefined;
+var myNull = null;
+var myUndefined = undefined;
+console.log(myNull);

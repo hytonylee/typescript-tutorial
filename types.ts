@@ -24,9 +24,11 @@ let strMulti: [string, number];
 strMulti = ["Hello", 4];
 
 // void
-let myVoid: void = null;
+let myVoid: void = undefined;
+let myNull: null = null;
+let myUndefined: undefined = undefined;
 
 
 
-console.log(myVoid);
+console.log(myNull);
 
